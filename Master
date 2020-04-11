@@ -1,0 +1,11 @@
+input_number = int(input("Type in a whole number. "))
+
+listOfRanges = list(range(1, input_number + 1))
+
+outPut_list = []
+
+for item in listOfRanges:
+    if input_number % item == 0:
+        outPut_list.append(item)
+
+print(outPut_list)
